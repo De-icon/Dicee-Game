@@ -4,7 +4,7 @@ btn.addEventListener('click', () => {
     var dice1 = Math.floor(Math.random() * 6) + 1 
     
     const img1 = document.querySelector('.img1')
-    const randomImg1 = "/images/dice"+dice1+".png"
+    const randomImg1 = "/dice"+dice1+".png"
 
     img1.setAttribute('src', randomImg1)
 
@@ -12,7 +12,7 @@ btn.addEventListener('click', () => {
     var dice2 = Math.floor(Math.random() * 6) + 1 
     
     const img2 = document.querySelector('.img2')
-    const randomImg2 = "/images/dice"+dice2+".png"
+    const randomImg2 = "/dice"+dice2+".png"
 
     img2.setAttribute('src', randomImg2)
 
